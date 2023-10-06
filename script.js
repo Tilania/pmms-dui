@@ -201,7 +201,7 @@ function resolveUrl(url) {
 }
 
 function initPlayer(id, handle, options) {
-	var player = document.createElement('video');
+	var player = document.createElement('img');
 	player.id = id;
 	player.src = resolveUrl(options.url);
 	document.body.appendChild(player);
